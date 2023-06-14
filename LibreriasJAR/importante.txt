@@ -1,0 +1,1 @@
+Se adjuntan en esta carpeta las librerías necesarias para el funcionamiento del proyecto
