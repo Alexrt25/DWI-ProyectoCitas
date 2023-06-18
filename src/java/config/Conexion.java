@@ -17,6 +17,7 @@ public class Conexion {
     String url="jdbc:mysql://localhost/db_mecadustria";
     //Usuario de BD
     String user="root";
+    //Pass de BD
     String pass="";
     public Connection Conexion(){
         try {
