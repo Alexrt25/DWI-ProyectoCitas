@@ -13,6 +13,7 @@ import java.sql.DriverManager;
  */
 public class Conexion {
     Connection con;
+    //URL BASE DE DATOS
     String url="jdbc:mysql://localhost/db_mecadustria";
     String user="root";
     String pass="";
