@@ -1,0 +1,5 @@
+administrador: citas@mundosalud.com
+clave: 123456
+
+paciente: javier@gmail.com
+clave: 123456
