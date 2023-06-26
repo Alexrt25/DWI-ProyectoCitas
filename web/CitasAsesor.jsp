@@ -92,7 +92,7 @@
                                                 <!-- <th>Asesor</th> -->
                                                 <th>Motivo</th>
                                                 <th>Estado</th>
-                                                <th>Enlace Meet</th>
+                                                <!--<th>Enlace Meet</th>-->
                                                 <th>Rango Horario</th>
                                                 <th class="text-center">Acción</th>
                                             </tr>
@@ -109,7 +109,7 @@
                                                     <!-- <td>${ci.getNombreAsesor()}</td> -->
                                                     <td>${ci.getNombreMotivo()}</td>
                                                     <td>${ci.getNombreEstado()}</td> 
-                                                    <td>${ci.getEnlaceMeet()}</td>
+                                                    <!--<td>${ci.getEnlaceMeet()}</td>-->
                                                     <td>${ci.getHoraRango()}</td>
                                                     <td>
                                                         <a href="Validar?accion=EditarCitasAsesor&idCita=${ci.getIdCita()}&nomEstado=${ci.getNombreEstado()}&nomAsesor=${ci.getNombreAsesor()}&idAsesor=${ci.getIdAsesor()}&enlaceMeet=${ci.getEnlaceMeet()}">
