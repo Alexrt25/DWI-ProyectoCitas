@@ -1,4 +1,3 @@
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page import="java.util.List"%>
@@ -62,11 +61,11 @@
                                     <h4 class="card-title my-3">Listado de Pacientes</h4>
                                 </div>
 
-                                <div class="card-tools">
+                                <!--<div class="card-tools">
                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ventana1">
                                         Nuevo
                                     </button>
-                                </div>
+                                </div>-->
 
                                 <div class="card-body">
                                     <div class="table-responsive">
@@ -99,8 +98,8 @@
                                                             <div class="d-inline-flex">
                                                                 <a href="Validar?accion=EditarCliente&idCliente=${us.getIdCliente()}&nomCliente=${us.getNombre()}&docuCliente=${us.getDocumentoIdentidad()}&correoCliente=${us.getCorreo()}&rsCliente=${us.getRazonSocial()}&rucCliente=${us.getRUC()}&tlfCliente=${us.getTelefono()}">
                                                                     <button class="btn btn-link btn-primary btn-lg" data-toggle="modal"><i class="fa fa-edit" aria-hidden="true"></i></button></a>
-                                                                <a href="Validar?accion=EliminarCliente&idCliente=${us.getIdCliente()}">
-                                                                    <button class="btn btn-link btn-danger btn-lg" data-toggle="modal"><i class="fa fa-times" aria-hidden="true"></i></button></a>
+                                                                <!--<a href="Validar?accion=EliminarCliente&idCliente=${us.getIdCliente()}">
+                                                                    <button class="btn btn-link btn-danger btn-lg" data-toggle="modal"><i class="fa fa-times" aria-hidden="true"></i></button></a>-->
                                                             </div>
                                                         </td>
                                                     </tr>
