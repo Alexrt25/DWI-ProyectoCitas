@@ -90,10 +90,10 @@
                                             </select> 
                                         </div>
                                     </div>
-                                    <div class="form-row">
+                                    <!--<div class="form-row">
                                         <label>Enlace Meet</label>
                                         <input type="text" name="txtEnlaceMeet" id="txtEnlaceMeet" class="form-control" value="<%= request.getParameter("enlaceMeet")%>" disabled >
-                                    </div>
+                                    </div>-->
                                     <div class="form-row">
                                         <div class="form-group col-md-6"><!-- comment -->
                                             <label>Asesor Actual</label>
