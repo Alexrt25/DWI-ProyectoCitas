@@ -219,7 +219,7 @@
                                                     <th>Asesor</th>
                                                     <th>Motivo</th>
                                                     <th>Estado</th>
-                                                    <th>Enlace Meet</th>
+                                                    <!--<th>Enlace Meet</th>-->
                                                     <th>Rango Horario</th>
                                                     <!-- <th class="text-center">Acción</th> -->
                                                 </tr>
@@ -236,12 +236,12 @@
                                                         <td>${ci.getNombreAsesor()}</td>
                                                         <td>${ci.getNombreMotivo()}</td>
                                                         <td>${ci.getNombreEstado()}</td> 
-                                                        <td>${ci.getEnlaceMeet()}</td>
+                                                        <!--<td>${ci.getEnlaceMeet()}</td>-->
                                                         <td>${ci.getHoraRango()}</td>
-                                                        <!-- <td>
-                                                            <a href="Validar?accion=EditarCitas&idCita=${ci.getIdCita()}&nomEstado=${ci.getNombreEstado()}&nomAsesor=${ci.getNombreAsesor()}&enlaceMeet=${ci.getEnlaceMeet()}">
-                                                            <button class="btn btn-link btn-primary btn-lg" data-toggle="modal"><i class="fa fa-edit" aria-hidden="true"></i></button></a>
-                                                        </td> -->
+                                                        <td>
+                                                            <a href="#">
+                                                                <button class="btn btn-link btn-primary btn-lg" data-toggle="modal" title="Pago"><i class="fab fa-paypal" aria-hidden="true"></i></button></a>
+                                                        </td>
                                                     </tr> 
                                                 </c:forEach>
 
