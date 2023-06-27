@@ -209,7 +209,7 @@
                                                     <th>Fecha reserva</th>
                                                     <th>Cliente</th>
                                                     <th>Documento</th>
-                                                    <th>Asesor</th>
+                                                    <th>Medico</th>
                                                     <th>Motivo</th>
                                                     <th>Estado</th>
                                                     <!--<th>Enlace Meet</th>-->
