@@ -99,13 +99,13 @@
 
                             <div class="row mx-2">
                                 <div class="col">
-                                    <label>Motivo Reserva</label>
+                                    <label>Detalle Reserva</label>
                                     <select id="cbomotivo" name="cbomotivo" class="form-control">
                                         <option selected>Seleccione</option>
-                                        <option value="1">FABRICACION DE CADENAS ESPECIALES</option>
-                                        <option value="2">ACABADOS DE PIÑONES</option>
-                                        <option value="3">FABRICACION DE MAQUINARIA</option>
-                                        <option value="4">INSTALACION DE SISTEMAS</option>
+                                        <option value="1">CONSULTA MEDICA</option>
+                                            <option value="2">ATENCION HOSPITALARIA</option>
+                                            <option value="3">MATERNIDAD</option>
+                                            <option value="4">EMERGENCIA</option>
                                     </select>
                                 </div>
                             </div>
@@ -212,7 +212,7 @@
                                                     <th>Asesor</th>
                                                     <th>Motivo</th>
                                                     <th>Estado</th>
-                                                    <th>Enlace Meet</th>
+                                                    <!--<th>Enlace Meet</th>-->
                                                     <th>Rango Horario</th>
                                                     <th class="text-center">Acción</th>
                                                 </tr>
@@ -229,7 +229,7 @@
                                                         <td>${ci.getNombreAsesor()}</td>
                                                         <td>${ci.getNombreMotivo()}</td>
                                                         <td>${ci.getNombreEstado()}</td> 
-                                                        <td>${ci.getEnlaceMeet()}</td>
+                                                        <!--<td>${ci.getEnlaceMeet()}</td>-->
                                                         <td>${ci.getHoraRango()}</td>
                                                         <td>
                                                             <a href="Validar?accion=EditarCitas&idCita=${ci.getIdCita()}&nomEstado=${ci.getNombreEstado()}&nomAsesor=${ci.getNombreAsesor()}&enlaceMeet=${ci.getEnlaceMeet()}">
