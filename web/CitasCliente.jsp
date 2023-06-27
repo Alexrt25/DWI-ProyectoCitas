@@ -83,7 +83,7 @@
                             <div class="row mx-2">
                                 <div class="col">
                                     <div class="form-group">
-                                        <label>Asesor</label>                                                   
+                                        <label>M&eacutedico</label>                                                   
                                         <select name="cboAsesor" id="cboAsesor" class="form-control" required >
                                             <option value="" selected>Seleccione</option>
                                             <c:forEach items="${asesor}" var="as">
@@ -100,13 +100,13 @@
                             <div class="row mx-2">
                                 <div class="col">
                                     <div class="form-group">
-                                        <label>Motivo de consulta</label> 
+                                        <label>Detalle Reserva</label> 
                                         <select id="cbomotivo" name="cbomotivo" class="form-control" required>
                                             <option selected>Seleccione</option>
-                                            <option value="1">FABRICACION DE CADENAS ESPECIALES</option>
-                                            <option value="2">ACABADOS DE PIÑONES</option>
-                                            <option value="3">FABRICACION DE MAQUINARIA</option>
-                                            <option value="4">INSTALACION DE SISTEMAS</option>
+                                            <option value="1">CONSULTA MEDICA</option>
+                                            <option value="2">ATENCION HOSPITALARIA</option>
+                                            <option value="3">MATERNIDAD</option>
+                                            <option value="4">EMERGENCIA</option>
                                         </select>
                                     </div>
                                 </div>
@@ -216,12 +216,12 @@
                                                     <th>Fecha reserva</th>
                                                     <!-- <th>Cliente</th> -->
                                                     <!-- <th>Documento</th> -->
-                                                    <th>Asesor</th>
+                                                    <th>M&eacutedico</th>
                                                     <th>Motivo</th>
                                                     <th>Estado</th>
                                                     <!--<th>Enlace Meet</th>-->
                                                     <th>Rango Horario</th>
-                                                    <!-- <th class="text-center">Acción</th> -->
+                                                    <th class="text-center">Acción</th>
                                                 </tr>
                                             </thead>
 
