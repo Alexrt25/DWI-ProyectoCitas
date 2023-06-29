@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="ServicioWeb">
+      <implementation-class>paqueteServicio.ServicioWeb</implementation-class>
+    </service>
+    <service name="ServicioPaciente">
+      <implementation-class>paqueteServicio.ServicioPaciente</implementation-class>
+    </service>
+    <service name="ServicioHorario">
+      <implementation-class>paqueteServicio.ServicioHorario</implementation-class>
+    </service>
+    <service name="ServicioMedico">
+      <implementation-class>paqueteServicio.ServicioMedico</implementation-class>
+    </service>
+    <service name="ServicioCita">
+      <implementation-class>paqueteServicio.ServicioCita</implementation-class>
+    </service>
+    <service name="ServicioPago">
+      <implementation-class>paqueteServicio.ServicioPago</implementation-class>
+    </service>
+    <service name="ServicioEspecialidad">
+      <implementation-class>paqueteServicio.ServicioEspecialidad</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
