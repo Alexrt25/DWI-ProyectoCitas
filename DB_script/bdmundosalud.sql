@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-06-2023 a las 02:54:08
+-- Tiempo de generación: 29-06-2023 a las 06:11:49
 -- Versión del servidor: 10.1.36-MariaDB
 -- Versión de PHP: 7.2.11
 
@@ -49,7 +49,8 @@ INSERT INTO `asesor` (`IdAsesor`, `DocumentoIdentidad`, `Telefono`, `IdUsuario`)
 (7, 46523012, 963523120, 23),
 (8, 45201201, 965652388, 25),
 (9, 45445897, 987876500, 28),
-(10, 45654345, 45434567, 29);
+(10, 45654345, 45434567, 29),
+(11, 98458610, 980454117, 33);
 
 -- --------------------------------------------------------
 
@@ -81,7 +82,8 @@ INSERT INTO `cita` (`IdCita`, `FechaCreacion`, `IdCliente`, `IdAsesor`, `Inicio`
 (11, '2022-12-15 20:45:14', 1, 2, '2022-12-16', ' ', 1, 2, 4),
 (12, '2022-12-15 22:33:53', 1, 2, '2022-12-16', ' ', 1, 2, 3),
 (13, '2022-12-15 22:34:35', 2, 2, '2022-12-16', ' ', 1, 2, 2),
-(14, '2023-06-26 23:45:41', 19, 10, '2023-06-19', '', 1, 1, 1);
+(14, '2023-06-26 23:45:41', 19, 10, '2023-06-19', '', 1, 1, 1),
+(15, '2023-06-29 01:33:22', 19, 11, '2023-06-30', ' ', 1, 1, 5);
 
 -- --------------------------------------------------------
 
@@ -269,7 +271,8 @@ INSERT INTO `usuario` (`IdUsuario`, `Nombre`, `Correo`, `Contrasenia`, `EstadoUs
 (29, 'Maria Vega', 'mvega@gmail.com', '6097182a841274e944cf61b9e81b2545', 0, 2),
 (30, 'Jose Marquez', 'jmarquez@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 1, 1),
 (31, 'Pilar Torres', 'limerino@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 1, 3),
-(32, 'Javier Perez', 'javier@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 1, 3);
+(32, 'Javier Perez', 'javier@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 1, 3),
+(33, 'Pablo', 'pablo@gmail.com', 'eccc3b9afbbf51135c8be0d6bb8d43d9', 1, 2);
 
 --
 -- Índices para tablas volcadas
@@ -346,13 +349,13 @@ ALTER TABLE `usuario`
 -- AUTO_INCREMENT de la tabla `asesor`
 --
 ALTER TABLE `asesor`
-  MODIFY `IdAsesor` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `IdAsesor` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT de la tabla `cita`
 --
 ALTER TABLE `cita`
-  MODIFY `IdCita` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `IdCita` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT de la tabla `cliente`
@@ -394,7 +397,7 @@ ALTER TABLE `rango_horario`
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `IdUsuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `IdUsuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- Restricciones para tablas volcadas
